@@ -49,7 +49,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 =======================================================
 - npx create-react-app <name-your-app> --template=typescript
 
-- npm i boostrap
+- sudo npm i boostrap
 
 - npm i @fortawesome/fontawesome-free
 
