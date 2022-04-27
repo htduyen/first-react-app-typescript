@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Customer from './components/Customer';
+import { CustomerClass } from './components/CustomerClass';
 
 function App() {
   return (
@@ -25,6 +26,12 @@ function App() {
             <div className="row">
               <div className="col">
                 <Customer name='Duyen' age={25} title='Huynh'/>
+              </div>
+            </div>
+
+            <div className="rov">
+              <div className="col">
+                <CustomerClass name='Duyen' age={25} title='Huynh'/>
               </div>
             </div>
           </div>
