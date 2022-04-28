@@ -4,6 +4,7 @@ import Counter from './components/Couter';
 import Customer from './components/Customer';
 import { CustomerClass } from './components/CustomerClass';
 import Greetings from './components/Greetings';
+import LoginForm from './components/Login';
 
 function App() {
   return (
@@ -38,13 +39,19 @@ function App() {
             </div> */}
 
             <Counter/>
+
             <div className="row">
               <div className="col">
                 <Greetings/>
               </div>
             </div>
             
-
+            <div className="row">
+              <div className="col">
+                <LoginForm/>
+              </div>
+            </div>
+          
           </div>
         </div>
       </div>
