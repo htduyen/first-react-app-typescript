@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
+import Counter from './components/Couter';
 import Customer from './components/Customer';
 import { CustomerClass } from './components/CustomerClass';
+import Greetings from './components/Greetings';
 
 function App() {
   return (
@@ -23,7 +25,7 @@ function App() {
               </button>
             </div>
 
-            <div className="row">
+            {/* <div className="row">
               <div className="col">
                 <Customer name='Duyen' age={25} title='Huynh'/>
               </div>
@@ -33,7 +35,16 @@ function App() {
               <div className="col">
                 <CustomerClass name='Duyen' age={25} title='Huynh'/>
               </div>
+            </div> */}
+
+            <Counter/>
+            <div className="row">
+              <div className="col">
+                <Greetings/>
+              </div>
             </div>
+            
+
           </div>
         </div>
       </div>
