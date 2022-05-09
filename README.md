@@ -54,5 +54,12 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 - npm i @fortawesome/fontawesome-free
 
 
+Lession 8: Server connect with Axios
+
+    `npm install axios`
+
+    - Using site [https://jvilk.com/MakeTypes/] generate model. Json placeholder [https://jsonplaceholder.typicode.com/users]
+
+
 
 

@@ -1,10 +1,7 @@
 import React from 'react';
 import './App.css';
-import Counter from './components/Couter';
-import Customer from './components/Customer';
-import { CustomerClass } from './components/CustomerClass';
-import Greetings from './components/Greetings';
 import UserList from './components/UserList';
+
 
 function App() {
   return (
@@ -26,38 +23,12 @@ function App() {
               </button>
             </div>
 
-            {/* <div className="row">
-              <div className="col">
-                <Customer name='Duyen' age={25} title='Huynh'/>
-              </div>
-            </div>
-
-            <div className="rov">
-              <div className="col">
-                <CustomerClass name='Duyen' age={25} title='Huynh'/>
-              </div>
-            </div> */}
-
-            <Counter/>
-
             <div className="row">
-              <div className="col">
-                <Greetings/>
-              </div>
-            </div>
-            
-            {/* <div className="row">
-              <div className="col">
-                <LoginForm/>
-              </div>
-            </div> */}
-          
-          <div className="row">
               <div className="col">
                 <UserList/>
               </div>
-          </div>
-
+            </div>
+            
           </div>
         </div>
       </div>
