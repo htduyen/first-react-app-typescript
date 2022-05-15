@@ -56,10 +56,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 Lession 8: Server connect with Axios
 
-    `npm install axios`
+    `npm install axios @types/axios`
 
     - Using site [https://jvilk.com/MakeTypes/] generate model. Json placeholder [https://jsonplaceholder.typicode.com/users]
 
-
-
-
+Note: Using `` and '' to define URL in Service

@@ -47,8 +47,8 @@ let UserList:React.FC<IProps> = () => {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <table className="table-hover text-center">
-                            <thead className="bd-dark text-white">
+                        <table className="table table-hover text-center table-striped">
+                            <thead className="bg-success text-white">
                                 <tr>
                                     <th>SNO</th>
                                     <th>Name</th>
